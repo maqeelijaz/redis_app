@@ -1,0 +1,6 @@
+package com.app.redis
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

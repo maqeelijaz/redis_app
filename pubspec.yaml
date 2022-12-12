@@ -1,0 +1,39 @@
+name: redis
+description: Redis For Bigdata Presentation
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: any
+  shimmer: any
+  http: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # flutter_launcher_icons: ^0.11.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+
+# flutter_icons:
+#   android: true
+#   ios: true
+#   remove_alpha_ios: true
+#   image_path: "assets/appicon.png"
+#   min_sdk_android: 21
+#   web:
+#     generate: true
+#   windows:
+#     generate: true
+#     icon_size: 48
